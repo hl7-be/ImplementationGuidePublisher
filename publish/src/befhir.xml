@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="befhir"/>
+  <url value="https://hl7.be/fhir/beprofile1"/>
+  <name value="BE_FHIR"/>
+  <title value="Belgian FHIR profiles"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2018-01-17T00:00:00.000+02:00"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="beprofile1.be"/>
+  <definition>
+    <grouping>
+      <name value="Journal"/>
+      <description value="Grouping Journal"/>
+    </grouping>
+    <grouping>
+      <name value="eHealth"/>
+      <description value="eHealth grouping"/>
+    </grouping>
+    <resource>
+      <reference>
+        <reference value="ImplementationGuide/hl7.be.structuredefinition-patient"/>
+      </reference>
+      <fhirVersion value="4.0.0"/>
+      <name value="hl7.be.structuredefinition-patient"/>
+      <groupingId value="eHealth"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/hl7.be.structuredefinition-permission"/>
+      </reference>
+      <fhirVersion value="4.0.0"/>
+      <name value="hl7.be.structuredefinition-permission"/>
+      <groupingId value="eHealth"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="StructureDefinition/hl7.be.structuredefinition-ReallyDerivedModel"/>
+      </reference>
+      <fhirVersion value="4.0.0"/>
+      <name value="hl7.be.structuredefinition-ReallyDerivedModel"/>
+      <description value="asssssssssdasdasdasdasdasdasdasd"/>
+      <groupingId value="eHealth"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Main Page"/>
+        <generation value="html"/>
+      </page>
+      <page>
+        <nameUrl value="artifacts.html"/>
+        <title value="Artifacts"/>
+        <generation value="html"/>
+      </page>
+    </page>
+  </definition>
+</ImplementationGuide>
